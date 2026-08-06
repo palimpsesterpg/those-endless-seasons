@@ -539,7 +539,7 @@ lblplyr {
 
 .idperso .contenttoggle {
 	padding: var(--large);
-	margin-top: var(--2xlarge) var(--large) 0;
+	margin: var(--2xlarge) var(--large) 0;
 	outline: var(--large) solid var(--white);
 	background: var(--light);
 	border: 1px solid var(--group-color-50, var(--co1-50)) !important
