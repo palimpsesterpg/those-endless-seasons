@@ -320,12 +320,12 @@ overflow: auto}
 	font-weight: 100;
 	font-family: var(--var);
 	font-size: var(--xlarge);
-	letter-spacing: var(--xsmall);
+	letter-spacing: var(--2xsmall);
 	display: flex;
 	margin: var(--large) 0;
 	align-items: center;
 	justify-content: center;
-	gap: var(--xlarge)
+	gap: var(--large)
 }
 
 .quoteadmin:before,
@@ -339,13 +339,13 @@ overflow: auto}
 
 .quoteadmin:before,
 .quoteadmin2:before {
-	margin-left: var(--xlarge);
-	margin-right: calc(var(--xsmall) + var(--xlarge))
+	margin-left: var(--large);
+	margin-right: calc(var(--2xsmall) + var(--large))
 }
 
 .quoteadmin:after,
 .quoteadmin2:after {
-	margin: 0 var(--xlarge)
+	margin: 0 var(--large)
 }
 
 .ficheperso,
