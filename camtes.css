@@ -28,7 +28,7 @@
 }
 
 .cam camhd upp {
-    font-family: var(--var);
+    font-family: var(--serif);
     display: flex;
     align-items: center;
     justify-content: center
