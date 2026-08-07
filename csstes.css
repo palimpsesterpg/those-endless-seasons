@@ -944,8 +944,8 @@ bborderbi4,
 bborderbin,
 bborderbid,
 bborderbigc {
-	border-bottom: 2.5px solid;
-	padding: 0 var(--small);
+	border-bottom: 2px solid;
+	padding: 0.1rem var(--small);
 	background-color: var(--white)
 }
 
