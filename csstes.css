@@ -1535,7 +1535,7 @@ lbgradgc a,
 lbgradbgc a,
 lbgradigc a,
 lbgradbigc {
-	color: var(--white)
+	color: var(--white) !important
 }
 
 wback1,
