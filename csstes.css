@@ -5823,7 +5823,12 @@ lblpmdn {
 .defiheader {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--large)
+	gap: var(--large);
+	width: 100%;
+	padding: var(--large);
+	background-color: var(--white);
+	justify-content: center;
+	align-items: center;
 }
 
 .defiheader img {
@@ -5833,9 +5838,12 @@ lblpmdn {
 }
 
 .defiheader defipseudo {
-	flex: 1;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
 	font-family: var(--serif);
-	font-weight: 700;
+	font-weight: 100;
 	font-size: var(--xlarge);
-	color: var(--group-color)
+	color: var(--group-color);
 }
