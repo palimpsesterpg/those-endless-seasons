@@ -66,17 +66,23 @@ fslarge {
 	font-size: var(--large)
 }
 
-.ficheadmin tgradb6 {font-size: var(--large);
-text-transform: uppercase;
-border-bottom: var(--2xsmall) solid var(--white);
-padding-bottom: var(--2xsmall);
-font-family: var(--serif)}
+.ficheadmin tgradb6 {
+	font-size: var(--large);
+	text-transform: uppercase;
+	border-bottom: var(--2xsmall) solid var(--white);
+	padding-bottom: var(--2xsmall);
+	font-family: var(--serif)
+}
 
-.textlisting tgradb6 {border-bottom: var(--2xsmall) solid var(--light)}
+.textlisting tgradb6 {
+	border-bottom: var(--2xsmall) solid var(--light)
+}
 
-.fa_like_list {max-width: 300px;
-max-height: 30px;
-overflow: auto}
+.fa_like_list {
+	max-width: 300px;
+	max-height: 30px;
+	overflow: auto
+}
 
 .posttabsystem {
 	width: 100%;
@@ -978,9 +984,9 @@ mborderbin,
 mborderbid,
 mborderbigc {
 	border: 0.5px solid;
-    background-color: var(--white);
-    padding: 0.1rem var(--xsmall);
-    font-family: var(--mono);
+	background-color: var(--white);
+	padding: 0.1rem var(--xsmall);
+	font-family: var(--mono);
 }
 
 border1,
@@ -5812,4 +5818,24 @@ lblpmdn {
 .random .posttab.active {
 	color: var(--white);
 	background-color: var(--group-color)
+}
+
+.defiheader {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--large)
+}
+
+.defiheader img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.defiheader defipseudo {
+	flex: 1;
+	font-family: var(--serif);
+	font-weight: 700;
+	font-size: var(--xlarge);
+	color: var(--group-color)
 }
