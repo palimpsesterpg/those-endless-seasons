@@ -5847,3 +5847,18 @@ lblpmdn {
 	font-size: var(--xlarge);
 	color: var(--group-color);
 }
+
+.ficheperso.defis defistatus {
+	text-transform: uppercase;
+	font-size: var(--small);
+	background: var(--group-color);
+	color: var(--white);
+	padding: 0 var(--2xsmall);
+	font-weight: 200;
+}
+
+.defis .blocperso a {
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
