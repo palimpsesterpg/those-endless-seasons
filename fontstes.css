@@ -1,90 +1,76 @@
 @font-face {
 	font-family: 'Beckan';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Beckan-Personal%20Use.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Beckan.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-thin.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Thin.otf') format('opentype');
 	font-weight: 100;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-light.otf') format('opentype');
-	font-weight: 200;
-	font-style: normal
-}
-
-@font-face {
-	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-book.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Light.otf') format('opentype');
 	font-weight: 300;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-middle.otf') format('opentype');
-	font-weight: 450;
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Book.otf') format('opentype');
+	font-weight: 500;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-regular.otf') format('opentype');
-	font-weight: 600;
-	font-style: normal
-}
-
-@font-face {
-	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-bold.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Regular.otf') format('opentype');
 	font-weight: 700;
 	font-style: normal
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-thinitalic.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Bold.otf') format('opentype');
+	font-weight: 900;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-ThinItalic.otf') format('opentype');
 	font-weight: 100;
 	font-style: italic
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-lightitalic.otf') format('opentype');
-	font-weight: 200;
-	font-style: italic
-}
-
-@font-face {
-	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-bookitalic.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-LightItalic.otf') format('opentype');
 	font-weight: 300;
 	font-style: italic
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-middleitalic.otf') format('opentype');
-	font-weight: 450;
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-BookItalic.otf') format('opentype');
+	font-weight: 500;
 	font-style: italic
 }
 
 @font-face {
 	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-regularitalic.otf') format('opentype');
-	font-weight: 600;
-	font-style: italic
-}
-
-@font-face {
-	font-family: 'Bebas';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Fontspring-DEMO-bebasneuepro-bolditalic.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Italic.otf') format('opentype');
 	font-weight: 700;
+	font-style: italic
+}
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-BoldItalic.otf') format('opentype');
+	font-weight: 900;
 	font-style: italic
 }
