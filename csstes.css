@@ -5850,7 +5850,7 @@ lblpmdn {
 
 .fichetodo span,
 .fichedefi span {
-	border-bottom: 1px solid var(--neutral);
+	border-bottom: 1px solid var(--darkerlight);
 	padding-bottom: var(--2xsmall);
 	text-transform: lowercase;
 	letter-spacing: 1px;
@@ -5872,7 +5872,7 @@ lblpmdn {
 	content: '\e430'
 }
 
-.fichedefi span.done a {
+.fichedefi span a {
 	color: var(--group-color);
 	letter-spacing: 1px;
 }
