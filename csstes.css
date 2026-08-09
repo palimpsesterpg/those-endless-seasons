@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'Beckan';
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/Beckan-Personal%20Use.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/BebasNeue-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal
+}
+
 .d-flex {
 	display: flex !important
 }
