@@ -12,6 +12,18 @@
 	font-style: normal
 }
 
+a[class^="fi-ts-"]:before,
+a[class*="fi-ts-"]:before {
+	font-family: uicons-thin-straight !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
 .d-flex {
 	display: flex !important
 }
