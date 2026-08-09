@@ -5848,7 +5848,8 @@ lblpmdn {
 	transform: translateX(-50%) rotate(-5deg)
 }
 
-.fichetodo span, .fichedefi span {
+.fichetodo span,
+.fichedefi span {
 	border-bottom: 1px solid var(--neutral);
 	padding-bottom: var(--2xsmall);
 	text-transform: lowercase;
@@ -5859,14 +5860,25 @@ lblpmdn {
 	justify-content: flex-start
 }
 
-.fichetodo span:before, .fichedefi span:before{
+.fichetodo span:before,
+.fichedefi span:before {
 	content: '\f28f';
 	font-family: uicons-thin-straight !important;
 	color: var(--group-color)
 }
 
-.fichetodo span.done:before, .fichedefi span.done:before {
+.fichetodo span.done:before,
+.fichedefi span.done:before {
 	content: '\e430'
+}
+
+.fichedefi span.done a {
+	color: var(--group-color);
+	letter-spacing: 1px;
+}
+
+.fichedefi span.done a {
+	font-weight: 700
 }
 
 .posttabsystem.random {
