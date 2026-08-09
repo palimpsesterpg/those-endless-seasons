@@ -5849,7 +5849,8 @@ lblpmdn {
 }
 
 .fichetodo span, .fichedefi span {
-	border-bottom: 1px solid var(--group-color-50);
+	border-bottom: 1px solid var(--neutral);
+	padding-bottom: var(--2xsmall);
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	display: flex;
@@ -5858,14 +5859,10 @@ lblpmdn {
 	justify-content: flex-start
 }
 
-.fichetodo span.done:not(:first-child), .fichedefi span.done:not(:first-child) {
-	color: var(--group-color)
-}
-
 .fichetodo span:before, .fichedefi span:before{
 	content: '\f28f';
 	font-family: uicons-thin-straight !important;
-	color: var(--group-color-100)
+	color: var(--group-color)
 }
 
 .fichetodo span.done:before, .fichedefi span.done:before {
