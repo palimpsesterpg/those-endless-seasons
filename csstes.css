@@ -5848,8 +5848,8 @@ lblpmdn {
 	transform: translateX(-50%) rotate(-5deg)
 }
 
-.fichetodo span {
-	border-bottom: 1px solid var(--group-color-100);
+.fichetodo span, .fichedefi span {
+	border-bottom: 1px solid var(--group-color-50);
 	text-transform: lowercase;
 	letter-spacing: 1px;
 	display: flex;
@@ -5858,17 +5858,17 @@ lblpmdn {
 	justify-content: flex-start
 }
 
-.fichetodo span.done:not(:first-child) {
+.fichetodo span.done:not(:first-child), .fichedefi span.done:not(:first-child) {
 	color: var(--group-color)
 }
 
-.fichetodo span:before {
+.fichetodo span:before, .fichedefi span:before{
 	content: '\f28f';
 	font-family: uicons-thin-straight !important;
 	color: var(--group-color-100)
 }
 
-.fichetodo span.done:before {
+.fichetodo span.done:before, .fichedefi span.done:before {
 	content: '\e430'
 }
 
