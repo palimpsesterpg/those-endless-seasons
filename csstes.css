@@ -5850,7 +5850,7 @@ lblpmdn {
 
 .fichetodo span,
 .fichedefi span {
-	border-bottom: 1px solid var(--darkerlight);
+	border-bottom: 1px solid var(--darklight);
 	padding-bottom: var(--2xsmall);
 	text-transform: lowercase;
 	letter-spacing: 1px;
@@ -5868,7 +5868,9 @@ lblpmdn {
 }
 
 .fichetodo span.done:before,
-.fichedefi span.done:before {
+.fichedefi span.done:before,
+.fichetodo span:hover:before,
+.fichedefi span:hover:before {
 	content: '\e430'
 }
 
