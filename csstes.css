@@ -5973,15 +5973,15 @@ lblpmdn {
 }
 
 .trad vf {
-	display: none
+	font-size: 0px
 }
 
 .trad:hover vo {
-	display: none;
+	font-size: 0px;
 	transition: 0.5s
 }
 
 .trad:hover vf {
-	display: block;
+	font-size: var(--medium);
 	transition: 0.5s
 }
