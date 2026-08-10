@@ -307,6 +307,184 @@ fslarge {
 			var(--group-color-600))
 }
 
+[data-color-scheme="dark"] .group-2 {
+	--group-color-800: #e1e1e1;
+	--group-color-700: #c3c3c3;
+	--group-color-600: #a6a6a6;
+	--group-color: #888888;
+	--group-color-400: #6a6a6a;
+	--group-color-300: #4c4c4c;
+	--group-color-200: #404040;
+	--group-color-100: #333333;
+	--group-color-50: #262626;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
+[data-color-scheme="dark"] .group-def {
+	--group-color-800: #E8E1EC;
+	--group-color-700: #D1C3D8;
+	--group-color-600: #BBA6C5;
+	--group-color: #A488B1;
+	--group-color-400: #8D6A9E;
+	--group-color-300: #745582;
+	--group-color-200: #60476C;
+	--group-color-100: #4D3856;
+	--group-color-50: #3A2A41;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
+[data-color-scheme="dark"] .group-4,
+[data-color-scheme="dark"] .bunkbed {
+	--bunkbed: #f5cd3d;
+	--group-color-800: #fcf3cf;
+	--group-color-700: #fae69e;
+	--group-color-600: #f7da6e;
+	--group-color: #f5cd3d;
+	--group-color-400: #f2c10d;
+	--group-color-300: #c29a0a;
+	--group-color-200: #a28008;
+	--group-color-100: #816707;
+	--group-color-50: #614d05;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
+[data-color-scheme="dark"] .group-5,
+[data-color-scheme="dark"] .meltmar {
+	--meltmar: #bec669;
+	--group-color-800: #eff1d9;
+	--group-color-700: #dfe2b4;
+	--group-color-600: #ced48e;
+	--group-color: #bec669;
+	--group-color-400: #acb645;
+	--group-color-300: #8a9137;
+	--group-color-200: #72782e;
+	--group-color-100: #5b6024;
+	--group-color-50: #44481b;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
+[data-color-scheme="dark"] .group-6,
+[data-color-scheme="dark"] .dintab {
+	--dintab: #81b890;
+	--group-color-800: #dfede3;
+	--group-color-700: #c0dcc7;
+	--group-color-600: #a0caab;
+	--group-color: #81b890;
+	--group-color-400: #61a674;
+	--group-color-300: #4d895d;
+	--group-color-200: #40724e;
+	--group-color-100: #335b3e;
+	--group-color-50: #27452f;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
+[data-color-scheme="dark"] .group-7,
+[data-color-scheme="dark"] .wedring {
+	--wedring: #5dbac4;
+	--group-color-800: #d6eef0;
+	--group-color-700: #aedde2;
+	--group-color-600: #aedde2;
+	--group-color: #5dbac4;
+	--group-color-400: #3ea1ac;
+	--group-color-300: #307b84;
+	--group-color-200: #27666d;
+	--group-color-100: #205257;
+	--group-color-50: #183d42;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
+[data-color-scheme="dark"] .group-8,
+[data-color-scheme="dark"] .phoalb {
+	--phoalb: #2db0ed;
+	--group-color-800: #cbebfa;
+	--group-color-700: #96d8f6;
+	--group-color-600: #62c4f1;
+	--group-color: #2db0ed;
+	--group-color-400: #1293cf;
+	--group-color-300: #0e6f9c;
+	--group-color-200: #0b5c81;
+	--group-color-100: #094967;
+	--group-color-50: #07374d;
+	--gradientgc1: linear-gradient(to right,
+			var(--group-color-800x),
+			var(--group-color-700x),
+			var(--group-color-800x));
+	--gradientgc2: linear-gradient(to right,
+			var(--group-color-400),
+			var(--group-color-600),
+			var(--group-color-400));
+	--gradientgc3: linear-gradient(to right,
+			var(--group-color-600),
+			var(--group-color-800),
+			var(--group-color-600))
+}
+
 .titrefam {
 	font-size: var(--2xlarge);
 	text-align: center;
