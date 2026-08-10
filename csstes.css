@@ -1,5 +1,5 @@
 a[class^="fi-ts-"]:before,
-:before {
+a[class*="fi-ts-"]:before {
 	font-family: uicons-thin-straight !important;
 	font-style: normal;
 	font-weight: normal !important;
@@ -5973,15 +5973,15 @@ lblpmdn {
 }
 
 .trad vf {
-	font-size: 0px
+	display: none
 }
 
 .trad:hover vo {
-	font-size: 0px;
+	display: none;
 	transition: 0.5s
 }
 
 .trad:hover vf {
-	font-size: var(--medium);
+	display: inline;
 	transition: 0.5s
 }
