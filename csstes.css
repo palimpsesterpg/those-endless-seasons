@@ -1,5 +1,7 @@
 a[class^="fi-ts-"]:before,
-a[class*="fi-ts-"]:before {
+a[class*="fi-ts-"]:before,
+icon[class^="fi-ts-"]:before,
+icon[class*="fi-ts-"]:before {
 	font-family: uicons-thin-straight !important;
 	font-style: normal;
 	font-weight: normal !important;
