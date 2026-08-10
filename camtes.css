@@ -61,9 +61,9 @@
     font-weight: 400
 }
 
-.cam i:not(.fi),
-.cam i:not(.mentiontag),
-.cam strong:not(chronoevent strong) {
+.cam .content i:not(.fi),
+.cam .content a:not(.mentiontag),
+.cam .content strong:not(chronoevent strong) {
     color: var(--group-color)
 }
 
