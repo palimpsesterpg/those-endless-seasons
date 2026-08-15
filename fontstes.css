@@ -7,11 +7,10 @@
 
 @font-face {
 	font-family: 'Tropical Leaves';
-	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Tropical-Leaves.otf') format('opentype');
+	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/Tropical Leaves.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal
 }
-
 @font-face {
 	font-family: 'Bebas';
 	src: url('https://cdn.jsdelivr.net/gh/palimpsesterpg/those-endless-seasons@main/fonts/BebasNeuePro-Thin.ttf') format('opentype');
