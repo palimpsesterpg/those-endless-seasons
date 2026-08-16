@@ -726,8 +726,8 @@ lbldvrs {
 	text-transform: uppercase;
 	font-size: var(--small);
 	font-weight: 700;
-	color: var(--group-color, var(--co2));
-	background: var(--group-color-50, var(--co2-50));
+	color: var(--group-color, var(--co3));
+	background: var(--group-color-50, var(--co3-50));
 	padding: 1px 5px 1px 7.5px
 }
 
@@ -3282,8 +3282,8 @@ majgc::first-letter {
 	font-family: var(--spe);
 }
 
-.brf1,
 .brf2,
+.brf1,
 .br11,
 .br12,
 .br13,
@@ -3315,23 +3315,23 @@ majgc::first-letter {
 	background-color: var(--co1)
 }
 
-.brf1,
-.brf2 {
+.brf2,
+.brf1 {
 	background-color: var(--group-color, var(--black)) !important
 }
 
-.brf1:before {
+.brf2:before {
 	color: var(--group-color, var(--black)) !important
 }
 
-.brf2 {
+.brf1 {
 	background: linear-gradient(to right,
 			var(--light),
 			var(--group-color, var(--black)),
 			var(--light)) !important
 }
 
-.brf1:before,
+.brf2:before,
 .br11:before,
 .br12:before,
 .br13:before,
@@ -3346,7 +3346,7 @@ majgc::first-letter {
 	color: var(--co1)
 }
 
-.brf2,
+.brf1,
 .br21,
 .br22,
 .br23,
@@ -5872,11 +5872,11 @@ lblprtt {
 	letter-spacing: 2.5px;
 	font-size: var(--small);
 	font-family: var(--mono);
-	color: var(--group-color)
+	color: var(--group-color, var(--co3))
 }
 
 lblpmdn {
-	background-color: var(--group-color);
+	background-color: var(--group-color, var(--co3));
 	font-family: var(--var);
 	font-weight: 700;
 	padding: 1px 5px 1px 6.5px;
@@ -5888,12 +5888,12 @@ lblpmdn {
 .posttab-content.thst strong {
 	letter-spacing: 1.5px;
 	padding-left: 1.5px;
-	color: var(--group-color);
+	color: var(--group-color, var(--co3));
 	font-weight: 900
 }
 
 .posttab-content.thst u {
-	color: var(--group-color-200);
+	color: var(--group-color-200, var(--co3-200));
 	text-decoration: none !important;
 }
 
@@ -5912,7 +5912,7 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab.active:before {
-	color: var(--group-color);
+	color: var(--group-color, var(--co3));
 }
 
 .ficheperso.more .posttab[data-tab="1"]:before {
@@ -5941,7 +5941,7 @@ lblpmdn {
 }
 
 .ficheperso.more .posttab-title {
-	color: var(--group-color);
+	color: var(--group-color, var(--co3));
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	padding-left: 5px;
