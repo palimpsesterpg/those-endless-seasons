@@ -130,15 +130,15 @@ fslarge {
 }
 
 .group-2 {
-	--group-color-50: #e1e1e1;
-	--group-color-100: #c3c3c3;
-	--group-color-200: #a6a6a6;
-	--group-color-300: #888888;
-	--group-color-400: #6a6a6a;
-	--group-color: #4c4c4c;
-	--group-color-600: #404040;
-	--group-color-700: #333333;
-	--group-color-800: #262626;
+		--group-color-50: #f0f0f0;
+	--group-color-100: #e1e1e1;
+	--group-color-200: #c3c3c3;
+	--group-color-300: #a6a6a6;
+	--group-color-400: #888888;
+	--group-color: #6a6a6a;
+	--group-color-600: #4c4c4c;
+	--group-color-700: #404040;
+	--group-color-800: #333333;
 	--gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
