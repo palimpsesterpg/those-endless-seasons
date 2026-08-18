@@ -87,18 +87,6 @@ fslarge {
 	font-size: var(--large)
 }
 
-.ficheadmin tgradb6 {
-	font-size: var(--large);
-	text-transform: uppercase;
-	border-bottom: var(--2xsmall) solid var(--white);
-	padding-bottom: var(--2xsmall);
-	font-family: var(--serif)
-}
-
-.textlisting tgradb6 {
-	border-bottom: var(--2xsmall) solid var(--light)
-}
-
 .fa_like_list {
 	max-width: 300px;
 	max-height: 30px;
@@ -527,7 +515,7 @@ fslarge {
 	font-size: var(--xlarge);
 	letter-spacing: var(--2xsmall);
 	display: flex;
-	color: var(--dark);
+	color: var(--co3);
 	align-items: center;
 	justify-content: center;
 	gap: var(--large)
