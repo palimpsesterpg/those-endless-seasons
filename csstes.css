@@ -4992,9 +4992,10 @@ mainpseudo:before,
 minipseudo:before {
 	font-family: uicons-thin-straight !important;
 	content: "\e147";
-	position: relative;
-	bottom: -3
 }
+
+mainpseudo:before {font-size: var(--large)}
+minipseudo:before {font-size: var(--small)}
 
 instadata {
 	font-weight: 300;
