@@ -1075,7 +1075,7 @@ reclinks a:after {
 	margin-left: var(--5xlarge)
 }
 
-.fichefam.noprof mainb2 {
+.fichefam.noprof 4 {
 	font-weight: 500
 }
 
@@ -3882,8 +3882,6 @@ majgc::first-letter {
 	border-radius: 100%
 }
 
-.fichefam varb1,
-.fichefam varb2,
 .fichefam varb3,
 .fichefam varb4 {
 	font-size: var(--large);
@@ -3891,7 +3889,7 @@ majgc::first-letter {
 	text-transform: uppercase
 }
 
-.fichefam lback1 {
+.fichefam lback3 {
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	padding: 2.5px var(--xlarge) 2.5px calc(var(--xlarge) + 2.5px);
