@@ -486,19 +486,20 @@ fslarge {
 	font-family: var(--var);
 	text-transform: lowercase;
 	font-weight: 900;
-	letter-spacing: 5px;
+	letter-spacing: var(--2xsmall);
 	width: 100%;
-	padding: var(--large);
-	color: var(--co3);
+	padding: var(--large) 0 var(--large) var(--2xsmall);
+	color: var(--co2);
 	background: #ffffff
 }
 
 .sstitrefam {
 	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-weight: 300;
-	color: var(--co4)
+	letter-spacing: var(--2xsmall);
+	padding-left: var(--2xsmall);
+	font-weight: 200;
+	color: var(--co1)
 }
 
 .contentfam {
