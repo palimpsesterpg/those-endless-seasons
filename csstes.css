@@ -1075,7 +1075,7 @@ reclinks a:after {
 	margin-left: var(--5xlarge)
 }
 
-.fichefam.noprof 4 {
+.fichefam.noprof mainb4 {
 	font-weight: 500
 }
 
@@ -4638,7 +4638,8 @@ p {
 	font-family: var(--var);
 	font-size: var(--small);
 	text-transform: uppercase;
-	font-weight: 300
+	font-weight: 700;
+    height: fit-content;
 }
 
 .postprofile.cam .postprofile-rank {
