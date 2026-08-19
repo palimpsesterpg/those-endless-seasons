@@ -511,7 +511,7 @@ fslarge {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 100;
-	    margin-bottom: var(--large);
+	margin-bottom: var(--large);
 	font-family: var(--var);
 	font-size: var(--xlarge);
 	letter-spacing: var(--2xsmall);
@@ -4629,17 +4629,17 @@ p {
 #restricted-block {
 	display: flex;
 	gap: var(--2xsmall);
-	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
 	width: 100% !important;
-	font-size: var(--small);
-	text-transform: uppercase;
-	font-weight: 300
 }
 
 #restricted-block a {
-	width: 100% !important;
-	height: fit-content !important
+	width: calc(50% - var(--2xsmall) / 2);
+	font-family: var(--var);
+	font-size: var(--small);
+	text-transform: uppercase;
+	font-weight: 300
 }
 
 .postprofile.cam .postprofile-rank {
