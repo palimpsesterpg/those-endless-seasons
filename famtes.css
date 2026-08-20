@@ -65,13 +65,13 @@
 }
 
 #FAM-button {
-    color: var(--white);
+    color: var(--co4);
+    background-color: var(--co4-100);
     position: fixed;
-    left: 0;
-    bottom: 0;
+    left: var(--large);
+    bottom: var(--large);
     font-size: var(--large);
-    height: 51.5px;
-    width: 51.5px;
+    padding: var(--large);
     display: flex;
     cursor: pointer;
     z-index: 99999;
