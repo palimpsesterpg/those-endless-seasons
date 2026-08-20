@@ -2394,6 +2394,7 @@ varbin,
 varbid,
 varbigc {
 	font-family: var(--var);
+	font-weight: 500;
 	font-size: var(--large)
 }
 
