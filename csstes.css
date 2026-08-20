@@ -516,8 +516,9 @@ fslarge {
 	font-size: var(--xlarge);
 	letter-spacing: var(--2xsmall);
 	color: var(--co3);
-	border: var(--2xsmall) solid;
-	padding-left: var(--large)
+	border-left: var(--2xsmall) solid;
+	border-radius: var(--2xsmall);
+	padding: var(--large)
 }
 
 .ficheperso,
