@@ -509,38 +509,15 @@ fslarge {
 .quoteadmin,
 .quoteadmin2 {
 	width: 100%;
-	text-align: center;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 900;
 	margin-bottom: var(--large);
 	font-family: var(--var);
 	font-size: var(--xlarge);
 	letter-spacing: var(--2xsmall);
-	display: flex;
 	color: var(--co3);
-	align-items: center;
-	justify-content: center;
-	gap: var(--large)
-}
-
-.quoteadmin:before,
-.quoteadmin:after,
-.quoteadmin2:before,
-.quoteadmin2:after {
-	content: "";
-	border-bottom: 0.5px solid;
-	flex: 1
-}
-
-.quoteadmin:before,
-.quoteadmin2:before {
-	margin-left: var(--large);
-	margin-right: calc(var(--2xsmall) + var(--large))
-}
-
-.quoteadmin:after,
-.quoteadmin2:after {
-	margin: 0 var(--large)
+	border: var(--2xsmall) solid;
+	padding-left: var(--large)
 }
 
 .ficheperso,
@@ -623,6 +600,7 @@ fslarge {
 .headperso img,
 .headrec img {
 	width: 125px;
+	border-radius: var(--small);
 	height: 75px;
 	object-fit: cover
 }
@@ -635,9 +613,8 @@ fslarge {
 }
 
 .blocperso.one {
-	outline: 0.5px solid var(--group-color-200, var(--co3-200));
 	background-color: var(--white);
-	border: 15.5px solid var(--light);
+	border: 1px solid var(--group-color-200, var(--co3-200));
 	padding: var(--large);
 }
 
@@ -645,6 +622,7 @@ lblprs {
 	text-transform: lowercase;
 	font-weight: 200;
 	letter-spacing: 1px;
+	font-style: italic;
 	font-family: var(--serif);
 	color: var(--group-color, var(--co2));
 	display: flex;
@@ -673,11 +651,10 @@ lblprs:before {
 }
 
 lblqst {
-	font-weight: 700;
+	font-weight: 900;
 	padding-left: 1.5px;
 	font-family: var(--var);
 	font-size: var(--large);
-	width: fit-content;
 	letter-spacing: 1.5px;
 	color: var(--group-color, var(--co1));
 	box-shadow: inset 0 -9px 0 var(--group-color-50, var(--co1-50))
@@ -963,6 +940,7 @@ blockquote.blocperso {
 	letter-spacing: 2.5px;
 	font-weight: 700;
 	height: 64px;
+	font-style: italic;
 	display: flex;
 	align-items: center
 }
@@ -4544,6 +4522,7 @@ chronoevent {
 chronoevent strong {
 	font-family: var(--var);
 	font-size: var(--large);
+	font-weight: 900;
 	color: var(--white);
 	background-color: var(--group-color, var(--darkneutral));
 	padding-right: 2.5px;
