@@ -103,7 +103,7 @@
     gap: var(--large);
     color: var(--white);
     background: var(--co3);
-    height: 50px;
+    border-radius: var(--2xsmall);
     font-size: var(--xlarge);
     align-items: center;
     justify-content: center
