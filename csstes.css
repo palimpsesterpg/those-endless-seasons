@@ -174,17 +174,16 @@ fslarge {
 
 .group-4,
 .bunkbed {
-	--bunkbed: #c29a0a;
-	--group-color-50: #fcf3cf;
-	--group-color-100: #fae69e;
-	--group-color-200: #f7da6e;
-	--group-color-300: #f5cd3d;
-	--group-color-400: #f2c10d;
-	--group-color: #c29a0a;
-	--group-color-600: #a28008;
-	--group-color-700: #816707;
-	--group-color-800: #614d05;
-	--gradientgc1: linear-gradient(to right,
+	--bunkbed: #C5979B;
+	--group-color-50: #F5EEEE;
+	--group-color-100: #EBDCDD;
+	--group-color-200: #E2CBCD;
+	--group-color-300: #D8B9BC;
+	--group-color-400: #CEA8AB;
+	--group-color: #C5979B;
+	--group-color-600: #AF7277;
+	--group-color-700: #945359;
+	--group-color-800: #6F3E42 --gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -200,17 +199,16 @@ fslarge {
 
 .group-5,
 .meltmar {
-	--meltmar: #8a9137;
-	--group-color-50: #eff1d9;
-	--group-color-100: #dfe2b4;
-	--group-color-200: #ced48e;
-	--group-color-300: #bec669;
-	--group-color-400: #acb645;
-	--group-color: #8a9137;
-	--group-color-600: #72782e;
-	--group-color-700: #5b6024;
-	--group-color-800: #44481b;
-	--gradientgc1: linear-gradient(to right,
+	--meltmar: #D29F8C;
+	--group-color-50: #F8EFEC;
+	--group-color-100: #F0DFD9;
+	--group-color-200: #E9CFC6;
+	--group-color-300: #E1BFB3;
+	--group-color-400: #DAB0A0;
+	--group-color: #D29F8C;
+	--group-color-600: #C27C63;
+	--group-color-700: #A95D42;
+	--group-color-800: #7F4631 --gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -226,17 +224,16 @@ fslarge {
 
 .group-6,
 .dintab {
-	--dintab: #4d895d;
-	--group-color-50: #dfede3;
-	--group-color-100: #c0dcc7;
-	--group-color-200: #a0caab;
-	--group-color-300: #81b890;
-	--group-color-400: #61a674;
-	--group-color: #4d895d;
-	--group-color-600: #40724e;
-	--group-color-700: #335b3e;
-	--group-color-800: #27452f;
-	--gradientgc1: linear-gradient(to right,
+	--dintab: #E0A77B;
+	--group-color-50: #FAF0E9;
+	--group-color-100: #F5E2D3;
+	--group-color-200: #EFD3BD;
+	--group-color-300: #EAC4A7;
+	--group-color-400: #E5B591;
+	--group-color: #E0A77B;
+	--group-color-600: #D5874C;
+	--group-color-700: #BB6A2C;
+	--group-color-800: #8C5021 --gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -252,17 +249,16 @@ fslarge {
 
 .group-7,
 .wedring {
-	--wedring: #307b84;
-	--group-color-50: #d6eef0;
-	--group-color-100: #aedde2;
-	--group-color-200: #aedde2;
-	--group-color-300: #5dbac4;
-	--group-color-400: #3ea1ac;
-	--group-color: #307b84;
-	--group-color-600: #27666d;
-	--group-color-700: #205257;
-	--group-color-800: #183d42;
-	--gradientgc1: linear-gradient(to right,
+	--wedring: #C2AE6A;
+	--group-color-50: #F5F1E6;
+	--group-color-100: #EBE4CE;
+	--group-color-200: #E1D6B5;
+	--group-color-300: #D7C99C;
+	--group-color-400: #CCBB83;
+	--group-color: #C2AE6A;
+	--group-color-600: #B29949;
+	--group-color-700: #8E7B3A;
+	--group-color-800: #6B5C2C --gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -278,17 +274,16 @@ fslarge {
 
 .group-8,
 .phoalb {
-	--phoalb: #0e6f9c;
-	--group-color-50: #cbebfa;
-	--group-color-100: #96d8f6;
-	--group-color-200: #62c4f1;
-	--group-color-300: #2db0ed;
-	--group-color-400: #1293cf;
-	--group-color: #0e6f9c;
-	--group-color-600: #0b5c81;
-	--group-color-700: #094967;
-	--group-color-800: #07374d;
-	--gradientgc1: linear-gradient(to right,
+	--phoalb: #A9B35B;
+	--group-color-50: #F1F2E4;
+	--group-color-100: #E2E6C8;
+	--group-color-200: #D4D9AD;
+	--group-color-300: #C6CD92;
+	--group-color-400: #B7C076;
+	--group-color: #A9B35B;
+	--group-color-600: #919A47;
+	--group-color-700: #747B39;
+	--group-color-800: #575D2B --gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -4639,7 +4634,7 @@ p {
 	font-size: var(--small);
 	text-transform: uppercase;
 	font-weight: 700;
-    height: fit-content;
+	height: fit-content;
 }
 
 .postprofile.cam .postprofile-rank {
@@ -4994,8 +4989,13 @@ minipseudo:before {
 	content: "\e147";
 }
 
-mainpseudo:before {font-size: var(--large)}
-minipseudo:before {font-size: var(--small)}
+mainpseudo:before {
+	font-size: var(--large)
+}
+
+minipseudo:before {
+	font-size: var(--small)
+}
 
 instadata {
 	font-weight: 300;
