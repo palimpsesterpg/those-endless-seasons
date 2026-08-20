@@ -119,9 +119,8 @@ fslarge {
 	display: block
 }
 
-.posttab.active back3 {
-	font-weight: 700;
-	color: var(--co3);
+.posttab.active backbi3 {
+	color: var(--co3) !important;
 	background: var(--white)
 }
 
