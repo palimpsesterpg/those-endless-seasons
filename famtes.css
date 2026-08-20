@@ -32,7 +32,7 @@
     z-index: 99999;
     visibility: visible;
     opacity: 1;
-    bottom: 51.5px;
+    bottom: 0;
     transition-property: top, right, bottom, left, height, width, margin, opacity,
         visibility;
     transition-duration: 500ms
@@ -104,7 +104,6 @@
     color: var(--white);
     background: var(--co3);
     height: 50px;
-    border-radius: var(--small);
     font-size: var(--xlarge);
     align-items: center;
     justify-content: center
