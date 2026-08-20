@@ -183,7 +183,8 @@ fslarge {
 	--group-color: #C5979B;
 	--group-color-600: #AF7277;
 	--group-color-700: #945359;
-	--group-color-800: #6F3E42 --gradientgc1: linear-gradient(to right,
+	--group-color-800: #6F3E42;
+	--gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -208,7 +209,8 @@ fslarge {
 	--group-color: #D29F8C;
 	--group-color-600: #C27C63;
 	--group-color-700: #A95D42;
-	--group-color-800: #7F4631 --gradientgc1: linear-gradient(to right,
+	--group-color-800: #7F4631;
+	--gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -233,7 +235,8 @@ fslarge {
 	--group-color: #E0A77B;
 	--group-color-600: #D5874C;
 	--group-color-700: #BB6A2C;
-	--group-color-800: #8C5021 --gradientgc1: linear-gradient(to right,
+	--group-color-800: #8C5021;
+	--gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -258,7 +261,8 @@ fslarge {
 	--group-color: #C2AE6A;
 	--group-color-600: #B29949;
 	--group-color-700: #8E7B3A;
-	--group-color-800: #6B5C2C --gradientgc1: linear-gradient(to right,
+	--group-color-800: #6B5C2C;
+	--gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -283,7 +287,8 @@ fslarge {
 	--group-color: #A9B35B;
 	--group-color-600: #919A47;
 	--group-color-700: #747B39;
-	--group-color-800: #575D2B --gradientgc1: linear-gradient(to right,
+	--group-color-800: #575D2B;
+	--gradientgc1: linear-gradient(to right,
 			var(--group-color-50),
 			var(--group-color-100),
 			var(--group-color-50));
@@ -347,16 +352,16 @@ fslarge {
 
 [data-color-scheme="dark"] .group-4,
 [data-color-scheme="dark"] .bunkbed {
-	--bunkbed: #f5cd3d;
-	--group-color-800: #fcf3cf;
-	--group-color-700: #fae69e;
-	--group-color-600: #f7da6e;
-	--group-color: #f5cd3d;
-	--group-color-400: #f2c10d;
-	--group-color-300: #c29a0a;
-	--group-color-200: #a28008;
-	--group-color-100: #816707;
-	--group-color-50: #614d05;
+	--bunkbed: #D8B9BC;
+	--group-color-800: #F5EEEE;
+	--group-color-700: #EBDCDD;
+	--group-color-600: #E2CBCD;
+	--group-color: #D8B9BC;
+	--group-color-400: #CEA8AB;
+	--group-color-300: #C5979B;
+	--group-color-200: #AF7277;
+	--group-color-100: #945359;
+	--group-color-50: #6F3E42;
 	--gradientgc1: linear-gradient(to right,
 			var(--group-color-800x),
 			var(--group-color-700x),
@@ -373,16 +378,16 @@ fslarge {
 
 [data-color-scheme="dark"] .group-5,
 [data-color-scheme="dark"] .meltmar {
-	--meltmar: #bec669;
-	--group-color-800: #eff1d9;
-	--group-color-700: #dfe2b4;
-	--group-color-600: #ced48e;
-	--group-color: #bec669;
-	--group-color-400: #acb645;
-	--group-color-300: #8a9137;
-	--group-color-200: #72782e;
-	--group-color-100: #5b6024;
-	--group-color-50: #44481b;
+	--meltmar: #E1BFB3;
+	--group-color-800: #F8EFEC;
+	--group-color-700: #F0DFD9;
+	--group-color-600: #E9CFC6;
+	--group-color: #E1BFB3;
+	--group-color-400: #DAB0A0;
+	--group-color-300: #D29F8C;
+	--group-color-200: #C27C63;
+	--group-color-100: #A95D42;
+	--group-color-50: #7F4631;
 	--gradientgc1: linear-gradient(to right,
 			var(--group-color-800x),
 			var(--group-color-700x),
@@ -399,16 +404,16 @@ fslarge {
 
 [data-color-scheme="dark"] .group-6,
 [data-color-scheme="dark"] .dintab {
-	--dintab: #81b890;
-	--group-color-800: #dfede3;
-	--group-color-700: #c0dcc7;
-	--group-color-600: #a0caab;
-	--group-color: #81b890;
-	--group-color-400: #61a674;
-	--group-color-300: #4d895d;
-	--group-color-200: #40724e;
-	--group-color-100: #335b3e;
-	--group-color-50: #27452f;
+	--dintab: #EAC4A7;
+	--group-color-800: #FAF0E9;
+	--group-color-700: #F5E2D3;
+	--group-color-600: #EFD3BD;
+	--group-color: #EAC4A7;
+	--group-color-400: #E5B591;
+	--group-color-300: #E0A77B;
+	--group-color-200: #D5874C;
+	--group-color-100: #BB6A2C;
+	--group-color-50: #8C5021;
 	--gradientgc1: linear-gradient(to right,
 			var(--group-color-800x),
 			var(--group-color-700x),
@@ -425,16 +430,16 @@ fslarge {
 
 [data-color-scheme="dark"] .group-7,
 [data-color-scheme="dark"] .wedring {
-	--wedring: #5dbac4;
-	--group-color-800: #d6eef0;
-	--group-color-700: #aedde2;
-	--group-color-600: #aedde2;
-	--group-color: #5dbac4;
-	--group-color-400: #3ea1ac;
-	--group-color-300: #307b84;
-	--group-color-200: #27666d;
-	--group-color-100: #205257;
-	--group-color-50: #183d42;
+	--wedring: #D7C99C;
+	--group-color-800: #F5F1E6;
+	--group-color-700: #EBE4CE;
+	--group-color-600: #E1D6B5;
+	--group-color: #D7C99C;
+	--group-color-400: #CCBB83;
+	--group-color-300: #C2AE6A;
+	--group-color-200: #B29949;
+	--group-color-100: #8E7B3A;
+	--group-color-50: #6B5C2C;
 	--gradientgc1: linear-gradient(to right,
 			var(--group-color-800x),
 			var(--group-color-700x),
@@ -451,16 +456,16 @@ fslarge {
 
 [data-color-scheme="dark"] .group-8,
 [data-color-scheme="dark"] .phoalb {
-	--phoalb: #2db0ed;
-	--group-color-800: #cbebfa;
-	--group-color-700: #96d8f6;
-	--group-color-600: #62c4f1;
-	--group-color: #2db0ed;
-	--group-color-400: #1293cf;
-	--group-color-300: #0e6f9c;
-	--group-color-200: #0b5c81;
-	--group-color-100: #094967;
-	--group-color-50: #07374d;
+	--phoalb: #A9B35B;
+	--group-color-800: #F1F2E4;
+	--group-color-700: #E2E6C8;
+	--group-color-600: #D4D9AD;
+	--group-color: #C6CD92;
+	--group-color-400: #B7C076;
+	--group-color-300: #A9B35B;
+	--group-color-200: #919A47;
+	--group-color-100: #747B39;
+	--group-color-50: #575D2B;
 	--gradientgc1: linear-gradient(to right,
 			var(--group-color-800x),
 			var(--group-color-700x),
