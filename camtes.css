@@ -520,3 +520,5 @@
 .cam .random .posttab.active {
     padding-left: var(--large)
 }
+
+.cam .blocpl.one {color: var(--group-color)}

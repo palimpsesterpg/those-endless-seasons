@@ -843,7 +843,6 @@ blockquote.blocperso {
 .blocpl.one {
 	background-color: var(--white);
 	padding: var(--large);
-	font-weight: 500;
 	font-family: var(--serif);
 	text-transform: lowercase;
 	font-style: italic;
@@ -853,6 +852,7 @@ blockquote.blocperso {
 
 .blocpl.one strong {
 	font-style: normal;
+	text-transform: uppercase;
 	font-weight: 700
 }
 
