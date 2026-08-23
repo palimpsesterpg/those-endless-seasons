@@ -74,7 +74,7 @@
     padding: var(--large);
     display: flex;
     cursor: pointer;
-    z-index: 99999;
+    border-radius: var(--2xsmall);
     transition-property: right;
     transition-duration: 500ms;
     align-items: center;
@@ -103,7 +103,6 @@
     gap: var(--large);
     color: var(--white);
     background: var(--co3);
-    border-radius: var(--2xsmall);
     font-size: var(--xlarge);
     align-items: center;
     justify-content: center
