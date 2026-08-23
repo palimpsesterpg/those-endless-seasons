@@ -74,7 +74,7 @@
     padding: var(--large);
     display: flex;
     cursor: pointer;
-    border-radius: var(--2xsmall);
+    border-radius: var(--small);
     transition-property: right;
     transition-duration: 500ms;
     align-items: center;
