@@ -801,6 +801,7 @@ a.FAM-attachment-thumb {
 .FAM-chat-avatar {
     position: relative;
     border-radius: var(--2xsmall);
+    overflow: hidden;
     height: 35px;
     width: 35px
 }
