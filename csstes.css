@@ -561,7 +561,7 @@ fslarge {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 90%
+	margin: 0 var(--large)
 }
 
 .quoteperso {
@@ -596,7 +596,8 @@ fslarge {
 	color: var(--lightdark);
 	font-size: var(--xlarge);
 	text-transform: uppercase;
-	letter-spacing: 2.5px
+	letter-spacing: 0.15rem;
+	padding-left: 0.15rem
 }
 
 .headperso img,
