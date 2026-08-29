@@ -4839,8 +4839,8 @@ firstdts:before {
 
 .ficheperso.first a {
 	background: linear-gradient(to right,
-			var(--group-color-100),
-			var(--group-color));
+			var(--group-color-300),
+			var(--group-color-700));
 	color: var(--white);
 	padding: 0 var(--2xsmall);
 	text-transform: uppercase;
