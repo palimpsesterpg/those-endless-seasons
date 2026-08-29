@@ -4839,10 +4839,10 @@ firstdts:before {
 
 .ficheperso.first a {
 	background: linear-gradient(to right,
-			var(--group-color-200),
+			var(--group-color-100),
 			var(--group-color));
 	color: var(--white);
-	padding: 0 var(--large);
+	padding: 0 var(--2xsmall);
 	text-transform: uppercase;
 	text-align: right;
 	letter-spacing: 5px;
