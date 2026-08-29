@@ -561,8 +561,7 @@ fslarge {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
-	margin: 0 var(--large)
+	width: calc(100% - 2rem)
 }
 
 .quoteperso {
