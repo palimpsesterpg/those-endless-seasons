@@ -65,8 +65,8 @@
 }
 
 #FAM-button {
-    color: var(--co4);
-    background-color: var(--co4-100);
+    color: var(--co3);
+    background-color: var(--co3-100);
     position: fixed;
     left: var(--large);
     bottom: var(--large);
