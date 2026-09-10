@@ -469,15 +469,10 @@
     text-transform: inherit !important
 }
 
-.cam .fichefam wback4,
 .cam .fichefam wback3,
 .cam .fichefam wbackd {
     text-transform: uppercase;
     font-size: var(--large)
-}
-
-.cam .fichefam wback4 {
-    background: var(--co4-50)
 }
 
 .cam .fichefam wback3 {
