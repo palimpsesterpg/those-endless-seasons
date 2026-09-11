@@ -3924,12 +3924,13 @@ p {
 }
 
 .notiffi_body_rps {
-	display: flex;
-	margin-top: var(--2xlarge);
-	position: relative;
-	max-height: 150px;
-	overflow: auto;
-	flex-direction: column;
+display: grid;
+    margin-top: var(--2xlarge);
+    position: relative;
+    max-height: 150px;
+    overflow: auto;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
 }
 
 .notiffi_body_rps a {
