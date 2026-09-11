@@ -3738,7 +3738,7 @@ chronoevent strong {
 	background-color: var(--group-color-50, var(--co1-50)) !important;
 	color: var(--group-color, var(--co1));
 	height: 150px;
-	margin-top: var(--2xlarge);
+	margin-top: 34px;
 	position: relative;
 	overflow: auto;
 	padding: var(--large) !important;
@@ -3925,7 +3925,7 @@ p {
 
 .notiffi_body_rps {
 display: grid;
-    margin-top: var(--2xlarge);
+    margin-top: 34px;
     position: relative;
     max-height: 150px;
     overflow: auto;
@@ -3958,7 +3958,7 @@ display: grid;
 	width: 100%;
 	position: absolute;
 	left: 0;
-	top: -2rem
+	top: -34px
 }
 
 .notiffi_body_rps:before {
