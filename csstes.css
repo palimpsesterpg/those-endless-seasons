@@ -3739,6 +3739,8 @@ chronoevent strong {
 	color: var(--group-color, var(--co1));
 	height: 150px;
 	flex: 1;
+	margin-top: var(--2xlarge);
+	position: absolute;
 	overflow: auto;
 	padding: var(--large) !important;
 }
@@ -3923,9 +3925,9 @@ p {
 }
 
 .notiffi_body_rps {
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1 1 50%
+	flex: 1 1 50%;
+	margin-top: var(--2xlarge);
+	position: absolute
 }
 
 .notiffi_body_rps a {
@@ -3934,9 +3936,6 @@ p {
 	font-weight: 300;
 	font-family: var(--mono);
 	letter-spacing: 1.5px;
-	display: flex;
-	align-items: center;
-	width: 50%
 }
 
 .notiffi_body_rps a:before {
@@ -3956,6 +3955,8 @@ p {
 	margin-bottom: var(--xsmall);
 	padding-bottom: var(--xsmall);
 	width: 100%;
+	position: absolute;
+	top: var(--2xlarge);
 	border-bottom: 0.5px solid var(--group-color-50, var(--neutral))
 }
 
