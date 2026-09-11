@@ -3735,13 +3735,16 @@ chronoevent strong {
 }
 
 .notiffi_body_notepad {
-	background-color: var(--group-color-50, var(--co1-50)) !important;
-	color: var(--group-color, var(--co1));
-	height: 150px;
 	margin-top: 34px;
 	position: relative;
-	overflow: auto;
+	background-color: var(--group-color-50, var(--co1-50)) !important;
 	padding: var(--large) !important;
+}
+
+#fa_notepad {
+	color: var(--group-color, var(--co1));
+	height: calc(150px - var(--2xlarge));
+	overflow: auto;
 }
 
 .ficheperso.status a {
