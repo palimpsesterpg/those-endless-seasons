@@ -3924,13 +3924,13 @@ p {
 }
 
 .notiffi_body_rps {
-display: grid;
-    margin-top: 34px;
-    position: relative;
-    max-height: 150px;
-    overflow: auto;
-    grid-template-columns: 1fr 1fr;
-    align-content: start;
+	display: grid;
+	margin-top: 34px;
+	position: relative;
+	max-height: 150px;
+	overflow: auto;
+	grid-template-columns: 1fr 1fr;
+	align-content: start;
 }
 
 .notiffi_body_rps a {
@@ -3958,6 +3958,8 @@ display: grid;
 	width: 100%;
 	position: absolute;
 	left: 0;
+	border-bottom: 1px solid var(--neutral);
+	padding-bottom: var(--2xsmall);
 	top: -34px
 }
 
