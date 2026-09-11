@@ -3745,6 +3745,9 @@ chronoevent strong {
 	color: var(--group-color, var(--co1));
 	height: calc(150px - var(--2xlarge));
 	overflow: auto;
+	background-color: var(--group-color-50, var(--co1-50)) !important;
+	padding: 0px !important;
+	width: 100%
 }
 
 .ficheperso.status a {
