@@ -3734,17 +3734,12 @@ chronoevent strong {
 	justify-content: flex-start
 }
 
-.panel_bn_global {
-	width: 100%
-}
-
-.notepad {
-	background-color: var(--group-color-50) !important;
-	color: var(--group-color-700);
+.notiffi_notepad {
+	background-color: var(--group-color-50, var(--co1-50)) !important;
+	color: var(--group-color, var(--co1));
 	height: 150px;
 	overflow: auto;
 	padding: var(--large) !important;
-	width: 100%
 }
 
 .ficheperso.status a {
