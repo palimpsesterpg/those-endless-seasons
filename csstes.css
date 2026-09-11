@@ -3956,6 +3956,7 @@ display: flex;
 	padding-bottom: var(--xsmall);
 	width: 100%;
 	position: absolute;
+	left: 0;
 	top: -2rem;
 	border-bottom: 0.5px solid var(--group-color-50, var(--neutral))
 }
