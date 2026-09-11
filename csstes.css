@@ -3738,6 +3738,7 @@ chronoevent strong {
 	background-color: var(--group-color-50, var(--co1-50)) !important;
 	color: var(--group-color, var(--co1));
 	height: 150px;
+	flex: 1;
 	overflow: auto;
 	padding: var(--large) !important;
 }
