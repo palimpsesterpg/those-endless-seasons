@@ -3740,7 +3740,7 @@ chronoevent strong {
 	height: 150px;
 	flex: 1;
 	margin-top: var(--2xlarge);
-	position: absolute;
+	position: relative;
 	overflow: auto;
 	padding: var(--large) !important;
 }
@@ -3927,7 +3927,7 @@ p {
 .notiffi_body_rps {
 	flex: 1 1 50%;
 	margin-top: var(--2xlarge);
-	position: absolute
+	position: relative
 }
 
 .notiffi_body_rps a {
