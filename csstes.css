@@ -3922,13 +3922,13 @@ p {
 	font-weight: 700
 }
 
-.notiffi_head_rps {
+.notiffi_body_rps {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%
+	flex: 1 1 50%
 }
 
-.notiffi_head_rps a {
+.notiffi_body_rps a {
 	color: var(--group-color, var(--co1)) !important;
 	text-transform: lowercase;
 	font-weight: 300;
@@ -3939,27 +3939,40 @@ p {
 	width: 50%
 }
 
-.notiffi_head_rps a:before {
+.notiffi_body_rps a:before {
 	content: "—";
 	font-size: var(--large);
 	padding-right: var(--large);
 	color: var(--group-color-50, var(--neutral)) !important
 }
 
-.notiffi_head_rps strong {
-	width: 50%;
-	color: var(--white)
-}
-
-.notiffi_head_rps:before {
+.notiffi_body_rps:before,
+.switcheroo:before,
+.notiffi_body_admin:before,
+.notiffi_body_notepad:before {
 	font-weight: 100;
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
 	margin-bottom: var(--xsmall);
 	padding-bottom: var(--xsmall);
-	content: "sujets importants";
 	width: 100%;
 	border-bottom: 0.5px solid var(--group-color-50, var(--neutral))
+}
+
+.notiffi_body_rps:before {
+	content: "sujets";
+}
+
+.notiffi_body_admin:before {
+	content: "important";
+}
+
+.switcheroo:before {
+	content: "personnages";
+}
+
+.notiffi_body_notepad:before {
+	content: "notes";
 }
 
 .signature_div:before {
