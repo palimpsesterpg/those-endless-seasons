@@ -3924,10 +3924,12 @@ p {
 }
 
 .notiffi_body_rps {
-display: flex;
-    margin-top: var(--2xlarge);
-    position: relative;
-    flex-direction: column;
+	display: flex;
+	margin-top: var(--2xlarge);
+	position: relative;
+	max-height: 150px;
+	overflow: auto;
+	flex-direction: column;
 }
 
 .notiffi_body_rps a {
@@ -3952,13 +3954,10 @@ display: flex;
 	font-weight: 100;
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
-	margin-bottom: var(--xsmall);
-	padding-bottom: var(--xsmall);
 	width: 100%;
 	position: absolute;
 	left: 0;
-	top: -2rem;
-	border-bottom: 0.5px solid var(--group-color-50, var(--neutral))
+	top: -2rem
 }
 
 .notiffi_body_rps:before {
