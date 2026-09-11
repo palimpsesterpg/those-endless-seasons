@@ -3758,7 +3758,7 @@ chronoevent strong {
 	font-weight: 100
 }
 
-.post#forum_rules {
+dy.post#forum_rules {
 	flex-direction: column;
 	gap: 0px !important
 }
@@ -3926,14 +3926,17 @@ p {
 	font-weight: 700
 }
 
-.notiffi_body_rps {
+.notiffi_body_rps div {
 	display: grid;
-	margin-top: 34px;
-	position: relative;
 	max-height: 150px;
 	overflow: auto;
 	grid-template-columns: 1fr 1fr;
 	align-content: start;
+}
+
+.notiffi_body_rps {
+	margin-top: 34px;
+	position: relative;
 }
 
 .notiffi_body_rps a {
