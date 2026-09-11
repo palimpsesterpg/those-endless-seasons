@@ -3856,7 +3856,10 @@ p {
 }
 
 .head-ava {
-	width: 75px
+	width: 90px;
+	height: 90px;
+	object-fit: cover;
+	border-radius: 50%
 }
 
 .head-container {
@@ -3911,8 +3914,7 @@ p {
 
 .links-container {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 	gap: var(--xsmall)
 }
@@ -3922,12 +3924,6 @@ p {
 	font-style: normal;
 	text-transform: lowercase;
 	font-weight: 700
-}
-
-.links-container a:before {
-	content: "•";
-	padding-right: var(--large);
-	color: var(--group-color-50, var(--neutral))
 }
 
 .head-rps {
