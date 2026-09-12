@@ -3744,7 +3744,7 @@ chronoevent strong {
 
 #fa_notepad {
 	color: var(--group-color, var(--co1));
-	height: 100px;
+	height: 68px;
 	overflow: auto;
 	background-color: var(--group-color-50, var(--co1-50)) !important;
 	padding: 0px !important;
@@ -3937,7 +3937,7 @@ p {
 
 .notiffi_body_rps div {
 	display: grid;
-	max-height: 86px;
+	max-height: 68px;
 	overflow: auto;
 	grid-template-columns: 1fr 1fr;
 	align-content: start;
