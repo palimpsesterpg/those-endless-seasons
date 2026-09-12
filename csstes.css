@@ -3744,7 +3744,7 @@ chronoevent strong {
 
 #fa_notepad {
 	color: var(--group-color, var(--co1));
-	max-height: calc(150px - var(--2xlarge));
+	height: 100px;
 	overflow: auto;
 	background-color: var(--group-color-50, var(--co1-50)) !important;
 	padding: 0px !important;
@@ -3932,18 +3932,18 @@ p {
 
 .notiffi_body_rps div {
 	display: grid;
-	max-height: 150px;
+	max-height: 100px;
 	overflow: auto;
 	grid-template-columns: 1fr 1fr;
 	align-content: start;
-	padding: var(--large);
-	background-color: var(--group-color, var(--co1))
 }
 
 .notiffi_body_rps {
 	margin-top: 34px;
 	position: relative;
 	width: 60%;
+		padding: var(--large);
+	background-color: var(--group-color, var(--co1))
 }
 
 .notiffi_body_rps a {
