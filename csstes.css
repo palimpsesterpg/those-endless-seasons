@@ -98,7 +98,7 @@ fslarge {
 	background: var(--white)
 }
 
-.group-2 {
+.group-1 {
 	--group-color-50: #f0f0f0;
 	--group-color-100: #e1e1e1;
 	--group-color-200: #c3c3c3;
@@ -146,7 +146,7 @@ fslarge {
 			var(--group-color-600))
 }
 
-[data-color-scheme="dark"] .group-2 {
+[data-color-scheme="dark"] .group-1 {
 	--group-color-800: #e1e1e1;
 	--group-color-700: #c3c3c3;
 	--group-color-600: #a6a6a6;
