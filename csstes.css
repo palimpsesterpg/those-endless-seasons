@@ -4009,6 +4009,7 @@ p {
 .notiffi_notiflist {
 	width: 60%;
 	margin-top: 34px;
+	height: -webkit-fill-available;
 	position: relative;
 }
 
