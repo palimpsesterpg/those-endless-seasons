@@ -3860,10 +3860,10 @@ p {
 }
 
 .notiffi_head_ava {
-	width: 90px;
-	height: 90px;
+	width: 71.5px;
+	height: 71.5px;
 	object-fit: cover;
-	border-radius: 50%
+	border-radius: var(--small)
 }
 
 .notiffi_head {
@@ -3893,6 +3893,8 @@ p {
 	grid-template-columns: auto auto;
 	grid-template-rows: auto auto;
 	gap: var(--xsmall);
+	justify-items: center;
+	align-items: center;
 }
 
 .notiffi_head_data {
@@ -3902,7 +3904,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding-left: 1px;
-	grid-area: 2 / 2 / 2 / 3;
+	grid-area: 1 / 2 / 2 / 3;
 	font-weight: 300
 }
 
