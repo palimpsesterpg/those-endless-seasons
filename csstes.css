@@ -352,7 +352,7 @@ fslarge {
 .headperso img,
 .headrec img {
 	width: 125px;
-	border-radius: var(--small);
+	border-radius: var(--2xsmall);
 	height: 75px;
 	object-fit: cover
 }
@@ -2877,13 +2877,13 @@ majgc::first-letter {
 .br6n,
 .br6d,
 .br6gc {
-    margin: 0 auto;
-    width: fit-content;
-    display: block;
-    font-size: var(--2xlarge);
-    color: var(--co1);
-    font-weight: 100;
-    letter-spacing: -0.34rem;
+	margin: 0 auto;
+	width: fit-content;
+	display: block;
+	font-size: var(--2xlarge);
+	color: var(--co1);
+	font-weight: 100;
+	letter-spacing: -0.34rem;
 }
 
 .br81,
@@ -3895,10 +3895,10 @@ p {
 }
 
 .notiffi_head_ava {
-	width: 71.5px;
-	height: 71.5px;
+	width: 74px;
+	height: 74px;
 	object-fit: cover;
-	border-radius: var(--small)
+	border-radius: var(--2xsmall)
 }
 
 .notiffi_head {
@@ -3911,10 +3911,19 @@ p {
 	flex-wrap: wrap
 }
 
+.notiffi_head_mini_links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--large);
+}
+
 .notiffi_head_pseudo {
 	text-align: center;
 	font-weight: 100;
-	font-size: var(--xlarge);
+	font-size: var(--2xlarge);
+	padding-top: var(--small);
 	font-family: var(--spe);
 	color: var(--group-color, var(--co1));
 	grid-area: 1 / 1 / 3 / 2;
