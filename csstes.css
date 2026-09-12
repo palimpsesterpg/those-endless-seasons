@@ -3736,6 +3736,7 @@ chronoevent strong {
 
 .notiffi_body_notepad {
 	margin-top: 34px;
+	flex: 1;
 	position: relative;
 	background-color: var(--group-color-50, var(--co1-50)) !important;
 	padding: var(--large) !important;
@@ -3942,6 +3943,7 @@ p {
 .notiffi_body_rps {
 	margin-top: 34px;
 	position: relative;
+	width: 60%;
 }
 
 .notiffi_body_rps a {
@@ -3954,13 +3956,15 @@ p {
 
 .notiffi_body_rps a:before {
 	content: "—";
-	padding-right: var(--large);
+	padding-right: var(--small);
 }
 
 .notiffi_body_rps:before,
 .switcheroo:before,
 .notiffi_body_admin:before,
-.notiffi_body_notepad:before {
+.notiffi_body_notepad:before,
+.notiffi_links:before,
+.all_notifications:before {
 	font-weight: 100;
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
@@ -3973,19 +3977,27 @@ p {
 }
 
 .notiffi_body_rps:before {
-	content: "sujets";
+	content: "sujets"
 }
 
 .notiffi_body_admin:before {
-	content: "important";
+	content: "important"
 }
 
 .switcheroo:before {
-	content: "personnages";
+	content: "personnages"
 }
 
 .notiffi_body_notepad:before {
-	content: "notes";
+	content: "notes"
+}
+
+.all_notifications:before {
+	content: "notifications"
+}
+
+.notiffi_links:before {
+	content: "liens utiles"
 }
 
 .signature_div:before {
