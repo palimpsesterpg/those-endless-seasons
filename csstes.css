@@ -2862,8 +2862,7 @@ majgc::first-letter {
 .br6n:before,
 .br6d:before,
 .br6gc:before {
-	content: "\f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7 \f5d7";
-	font-family: uicons-thin-straight !important;
+	content: "~~~~~~~~~~~~~~~~~~~~";
 }
 
 .br91:before,
@@ -2879,12 +2878,13 @@ majgc::first-letter {
 .br6n,
 .br6d,
 .br6gc {
-	margin: 0 auto;
-	width: fit-content;
-	display: block;
-	font-size: var(--large);
-	color: var(--co1);
-	letter-spacing: -0.06rem;
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+    font-size: var(--2xlarge);
+    color: var(--co1);
+    font-weight: 100;
+    letter-spacing: -0.34rem;
 }
 
 .br81,
