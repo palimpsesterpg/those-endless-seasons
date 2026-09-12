@@ -3964,7 +3964,7 @@ p {
 .notiffi_body_admin:before,
 .notiffi_body_notepad:before,
 .notiffi_links:before,
-.all_notifications:before {
+.notiffi_notiflist:before {
 	font-weight: 100;
 	text-transform: uppercase;
 	color: var(--group-color, var(--co1));
@@ -3992,12 +3992,18 @@ p {
 	content: "notes"
 }
 
-.all_notifications:before {
+.notiffi_notiflist:before {
 	content: "notifications"
 }
 
 .notiffi_links:before {
 	content: "liens utiles"
+}
+
+.notiffi_notiflist {
+	width: 60%;
+	margin-top: 34px;
+	position: relative;
 }
 
 .signature_div:before {
