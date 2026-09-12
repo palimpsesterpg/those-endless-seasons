@@ -122,6 +122,42 @@ fslarge {
 			var(--group-color-600))
 }
 
+.group-2 {
+	--group-color-50: #E8F3F6;
+	--group-color-100: #D0E6ED;
+	--group-color-200: #B9DAE4;
+	--group-color-300: #A2CEDB;
+	--group-color-400: #8BC1D2;
+	--group-color: #72B4C8;
+	--group-color-600: #4EA1BA;
+	--group-color-700: #3B8298;
+	--group-color-800: #2C6272;
+}
+
+.group-3 {
+	--group-color-50: #E9DFEC;
+	--group-color-100: #D2BFD9;
+	--group-color-200: #BC9FC6;
+	--group-color-300: #A57EB4;
+	--group-color-400: #8F5EA1;
+	--group-color: #734B81;
+	--group-color-600: #5F3F6B;
+	--group-color-700: #4C3256;
+	--group-color-800: #392640;
+}
+
+.group-4 {
+	--group-color-50: #F0E9E2;
+	--group-color-100: #E1D4C5;
+	--group-color-200: #D1BEA8;
+	--group-color-300: #C2A88B;
+	--group-color-400: #B3936E;
+	--group-color: #A17E55;
+	--group-color-600: #866846;
+	--group-color-700: #6B5338;
+	--group-color-800: #503E2A;
+}
+
 .group-def {
 	--group-color-50: #f0f0f0;
 	--group-color-100: #e1e1e1;
