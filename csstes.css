@@ -2657,8 +2657,7 @@ majgc::first-letter {
 .br5n:before,
 .br5d:before,
 .br5gc:before {
-	content: "\f2e2";
-	font-family: uicons-thin-straight !important;
+	content: "✧";
 	position: absolute;
 	background: var(--light);
 	padding: 0 var(--3xlarge);
