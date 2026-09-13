@@ -3919,6 +3919,15 @@ p {
 	gap: var(--large);
 }
 
+..notiffi_head_mini_links i:before {
+	height: 15px;
+	width: 15px;
+	background: var(--group-color-50, var(--co1-50));
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
 .notiffi_head_pseudo {
 	text-align: center;
 	font-weight: 100;
