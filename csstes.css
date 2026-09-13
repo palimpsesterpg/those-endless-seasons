@@ -3919,7 +3919,7 @@ p {
 	gap: var(--large);
 }
 
-.notiffi_head_mini_links i:before {
+.notiffi_head_mini_links a:before {
 	height: 15px;
 	width: 15px;
 	background: var(--group-color-50, var(--co1-50));
